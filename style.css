@@ -1,0 +1,206 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif; 
+}
+
+:root{
+    --cordefundocaixa: #efe7dc;
+    --cor2: #f0d59c;
+    --corletra: #010101;
+    --cor4-laranjaclaro: #e9b03e;
+    --cor5-branco: #e3e3e3;
+    --cor6-azul-cinza: #734f39;
+    --cor7-branco2: #f1f1f1;
+}
+
+@font-face {
+    font-family: "font";
+    src: url(font.otf);
+}
+
+body{
+    background-color: #9C9FF0;
+    background-image: url(fudo.jpg);
+    background-size: cover; 
+}
+
+header{
+    background-color:var(--cordefundocaixa);
+    height: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+header h1{
+    font-family: "font", serif;
+    font-size: 5em;
+}
+
+header #logo{
+    width: 200px;
+    height: 200px;
+    margin-right: 1%;
+    margin-top: 2%;
+}
+
+header #logo img{
+    margin-top: 5%;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#caixalogin{
+    margin-left: 33em;
+    
+}
+
+#caixalogin form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    shape-outside: #734f39 2px;
+    border-radius: 2em;
+    background-color: var(--cordefundocaixa);
+    margin-top: 3em;
+    width: 15em;
+    font-size: 1.5em;
+    margin-left: 2em;
+}
+
+#caixalogin2{
+    float: right;
+    margin-right: 10em;
+   
+}
+
+#caixalogin2 form{
+    display: flex;
+    display: flow-root;
+    align-items: center; 
+    float: left;
+    flex-direction: row;
+    shape-outside: #733948 2px;
+    border-radius: 2em;
+    background-color: var(--cordefundocaixa);
+    margin-top: 3em;
+    width: 20em;
+    font-size: 1.5em;
+    margin-left: 2em;
+}
+
+#caixalogin2 h2 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+#caixalogin2 label {
+    align-items: center;
+    margin-left: 2em;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+#caixalogin .cadastro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: var(--cordefundocaixa);
+    margin-top: 3em;
+    width: 15em;
+    font-size: 1.0em;
+    
+}
+
+#caixalogin h2{
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#caixalogin p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    margin-left: 5.5em;
+}
+
+#caixalogin3 {
+    
+    margin-left: 5em;
+    float: unset;
+   
+    
+}
+
+#caixalogin3 form{
+    display: flow-root;
+    float: left;
+    flex-direction: column;
+    shape-outside: #733948 2px;
+    border-radius: 2em;
+    background-color: var(--cordefundocaixa);
+    margin-top: 3em;
+    width: 20em;
+    font-size: 1.5em;
+    margin-left: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#caixalogin3 form p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    margin-left: 0em;
+}
+
+#caixalogin3 h2 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+    
+
+}
+
+/* #caixalongin3 input{
+    align-items: center;
+    margin-left: 5em;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3em;
+     */
+
+#caixalogin3 label {
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+#caixalogin3 form input[type="submit"] {
+    margin-top: 1em; /* Ajuste conforme necessário */
+}
+
+#cadastro2{
+    
+    position: absolute;
+    bottom: -0.1em; /* Ajuste conforme necessário */
+    left: 44.2em;
+    transform: translateX(-50%);
+}
